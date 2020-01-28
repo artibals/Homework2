@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <nav> 
+      <a href="index.html">Back to SL</a> 
+    </nav>
+    <img src="img/solarsystem.png" width="1340" height="500" alt="Solar System">
+    <main>
+      <h1>Questionnaire</h1>
+      <button name="button">Press me</button>
+        <form action="https://formspree.io/xwkoeplw" method="POST">
+            <ul>
+            <li>
+            <label>Which planet is your favorite?</label>
+            <label>
+                 <input type="checkbox" name="planet" value="mercury">Mercury
+            </label> 
+            <label>
+                 <input type="checkbox" name="planet" value="venus">Venus
+            </label> 
+            <label>
+                 <input type="checkbox" name="planet" value="earth" checked>Earth
+            </label>
+            <label>
+                 <input type="checkbox" name="planet" value="mars">Mars
+            </label> 
+            <label>
+                 <input type="checkbox" name="planet" value="jupiter">Jupiter
+            </label> 
+            <label>
+                 <input type="checkbox" name="planet" value="saturn">Saturn
+            </label>
+            <label>
+                 <input type="checkbox" name="planet" value="uranus">Uranus
+            </label> 
+            <label>
+                 <input type="checkbox" name="planet" value="neptune">Neptune
+            </label> 
+            <label>
+                 <input type="checkbox" name="planet" value="pluto">Pluto
+            </label>
+                </li>
+            <li>
+            <label>Name:
+                 <input type="text" placeholder="Name" name="name">
+            </label>
+                </li>
+            <li>
+            <label>Email:
+                <input type="email" placeholder="Email" id="email" name="email">
+            </label>
+                </li>
+            <li>
+            <label>Gender:</label>
+            <label>
+                 <input type="radio" name="gender" value="male">Male
+            </label> 
+            <label>
+                 <input type="radio" name="gender" value="female">Female
+            </label> 
+            <label>
+                 <input type="radio" name="gender" value="other">Other
+            </label>
+                </li>
+            <li>
+            <label>Message:
+                  <textarea id="msg" name="your_message"></textarea>
+            </label>
+                </li>
+            <li>
+                <input type="reset" value="Reset button">
+            </li>
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+            </ul>  
+        </form>
+    </main>
+</body>
+</html>
